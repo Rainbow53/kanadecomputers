@@ -14,19 +14,30 @@
         }
         .hero {
             text-align: center;
-            padding: 80px 20px;
+            padding: 90px 20px;
             background: linear-gradient(135deg, #0d6efd, #6610f2);
             color: white;
         }
         .section-title {
-            margin-bottom: 30px;
+            margin-bottom: 40px;
             font-weight: 600;
         }
         .tech-box {
             border: 1px solid #ddd;
-            padding: 20px;
-            border-radius: 8px;
+            padding: 25px;
+            border-radius: 10px;
             height: 100%;
+            background: #fff;
+        }
+        .counter {
+            font-size: 40px;
+            font-weight: bold;
+            color: #0d6efd;
+        }
+        .gallery img {
+            border-radius: 10px;
+            height: 200px;
+            object-fit: cover;
         }
     </style>
 </head>
@@ -40,16 +51,33 @@
 </section>
 
 <!-- About -->
-<section id="about" class="container py-5">
+<section class="container py-5">
     <h2 class="section-title text-center">About Us</h2>
     <p class="text-center">
-        Kanade Computers provides professional software solutions including
-        web applications and desktop software using Python technologies.
+        Kanade Computers delivers reliable and customized software solutions
+        for traders, businesses, and professionals using modern Python technologies.
     </p>
 </section>
 
+<!-- Experience -->
+<section class="bg-light py-5">
+    <div class="container text-center">
+        <h2 class="section-title">Our Experience</h2>
+        <div class="row">
+            <div class="col-md-3 col-6 mb-3">
+                <div class="counter">25+</div>
+                <p>Years Experience</p>
+            </div>
+            <div class="col-md-3 col-6 mb-3">
+                <div class="counter">24/7</div>
+                <p>Support</p>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Services -->
-<section id="services" class="bg-light py-5">
+<section class="py-5">
     <div class="container">
         <h2 class="section-title text-center">Our Services</h2>
         <div class="row text-center">
@@ -57,7 +85,7 @@
                 <div class="card h-100 shadow-sm">
                     <div class="card-body">
                         <h5>Web Application Development</h5>
-                        <p>Flask-based secure and scalable web applications.</p>
+                        <p>Secure Flask-based web applications.</p>
                     </div>
                 </div>
             </div>
@@ -65,15 +93,15 @@
                 <div class="card h-100 shadow-sm">
                     <div class="card-body">
                         <h5>Desktop Software</h5>
-                        <p>Tkinter-based desktop software with MySQL backend.</p>
+                        <p>Tkinter software with MySQL backend.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 mb-3">
                 <div class="card h-100 shadow-sm">
                     <div class="card-body">
-                        <h5>Database Solutions</h5>
-                        <p>MySQL database design, optimization & security.</p>
+                        <h5>Custom Business Software</h5>
+                        <p>Tailor-made solutions for traders.</p>
                     </div>
                 </div>
             </div>
@@ -81,44 +109,78 @@
     </div>
 </section>
 
-<!-- Technologies -->
-<section id="technologies" class="container py-5">
-    <h2 class="section-title text-center">Technologies</h2>
-    <div class="row">
-        <div class="col-md-6 mb-3">
-            <div class="tech-box">
-                <h5>Python & Flask</h5>
-                <p>Backend development & API integration.</p>
+<!-- Why Choose Us -->
+<section class="bg-light py-5">
+    <div class="container">
+        <h2 class="section-title text-center">Why Choose Us</h2>
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <div class="tech-box">
+                    ✔ Trusted local service provider<br>
+                    ✔ Cost-effective solutions<br>
+                    ✔ Fast delivery & support
+                </div>
             </div>
-        </div>
-        <div class="col-md-6 mb-3">
-            <div class="tech-box">
-                <h5>Tkinter & MySQL</h5>
-                <p>Desktop GUI & relational database systems.</p>
+            <div class="col-md-6 mb-3">
+                <div class="tech-box">
+                    ✔ Secure & scalable software<br>
+                    ✔ Easy-to-use applications<br>
+                    ✔ Long-term maintenance
+                </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Projects -->
-<section id="projects" class="bg-light py-5">
+<!-- Company Values -->
+<section class="py-5">
     <div class="container">
-        <h2 class="section-title text-center">Project Types</h2>
-        <ul class="list-group">
-            <li class="list-group-item">Billing & Inventory System</li>
-            <li class="list-group-item">Patti & Invoice (Sauda) Software</li>
-            <li class="list-group-item">Textile Accounting Software</li>
-            <li class="list-group-item">Software for Traders</li>
-            <li class="list-group-item">Stock Management Software</li>
+        <h2 class="section-title text-center">Our Values</h2>
+        <div class="row text-center">
+            <div class="col-md-4 mb-3">
+                <div class="tech-box">Integrity & Transparency</div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="tech-box">Customer Satisfaction</div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="tech-box">Quality & Innovation</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Mission -->
+<section class="bg-light py-5">
+    <div class="container text-center">
+        <h2 class="section-title">Our Mission</h2>
+        <p>
+            To empower businesses with reliable, affordable, and efficient software
+            solutions that simplify operations and improve productivity.
+        </p>
+    </div>
+</section>
+
+<!-- Top Customers -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="section-title text-center">Top Customers</h2>
+        <ul class="list-group list-group-flush text-center">
+            <li class="list-group-item">Textile Traders</li>
+            <li class="list-group-item">Turmeric Traders</li>
+            <li class="list-group-item">Wholesale Businesses</li>
+            <li class="list-group-item">Retail Shops</li>
+            <li class="list-group-item">Manufacturing Units</li>
         </ul>
     </div>
 </section>
 
+
 <!-- Contact -->
-<section id="contact" class="container py-5">
+<section class="container py-5">
     <h2 class="section-title text-center">Contact Us</h2>
     <div class="text-center">
-        <p><strong>Address:</strong> Shrinagar Colony, Sanglikar Mala Miraj, Sangli - 416410</p>
+        <p><strong>Address:</strong> Shrinagar Colony, Sanglikar Mala, Miraj, Sangli - 416410</p>
         <p><strong>Mobile:</strong> <a href="tel:+919423869672">+91 9423869672</a></p>
     </div>
 </section>
@@ -126,4 +188,7 @@
 <!-- Footer -->
 <footer class="text-center py-3 bg-dark text-white">
     © 2026 Kanade Computers. All Rights Reserved.
-</
+</footer>
+
+</body>
+</html>
